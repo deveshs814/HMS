@@ -6,7 +6,7 @@ import fileUpload from "express-fileupload";
 import { dbConnection } from "./database/dbConnection.js";
 import messageRouter from "./router/messageRouter.js";
 import { errorMiddleware } from "./middlewares/errorMiddleware.js";
-import userRouter from "../backend/router/userRouter.js";
+import userRouter from "./router/userRouter.js";
 import appointmentRouter from "./router/appointmentRouter.js";
 
 // Initialize environment variables
